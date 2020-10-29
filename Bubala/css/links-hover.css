@@ -1,0 +1,14 @@
+.navbar a:hover {
+    background-color: #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    color: #384a88;
+}
+
+
+.footer_items  a:hover {
+    background-color: #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    color: #384a88;
+}

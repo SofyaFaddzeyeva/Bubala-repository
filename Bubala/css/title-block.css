@@ -1,0 +1,25 @@
+.text {
+    padding-top: 5%;
+}
+
+.text h3 {
+    font-family: "AA_Big Sky ttstd";
+    color: rgba(42, 68, 190, 1);
+}
+
+.text h1 {
+    font-family: "KZ Cooper";
+    color: #384a88;
+    display: inline-block;
+    font-size: 40px;
+}
+
+.image img {
+    max-width: 100%;
+    float: right;
+}
+
+.bg {
+    background: linear-gradient(90deg, rgba(42, 68, 190, 1) 35%, rgba(56, 74, 136, 1) 100%);
+    margin-top: 20px;
+}

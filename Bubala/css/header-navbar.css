@@ -1,0 +1,71 @@
+.topnav {
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: white;
+    border-radius: 10px;
+    font-family: "Berlin Sans FB";
+}
+
+.locations {
+    display: flex;
+    display: inline;
+}
+
+.locations li {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 60px;
+}
+
+.icon_links {
+    position: relative;
+    display: inline-block;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    font-family: "Berlin Sans FB";
+    padding-top: 2em;
+}
+
+.navbar nav {
+    flex: 1;
+    text-align: right;
+}
+
+.navbar a {
+    transition: all 0.5s;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li p {
+    color: #384a88;
+}
+
+.icon {
+    color: #384a88;
+    font-size: 30px;
+    float: right;
+    text-align: left;
+}
+
+.navbar nav ul {
+    display: inline-block;
+    list-style-type: none;
+    background-color: #384a88;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.navbar a {
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+}
