@@ -1,0 +1,36 @@
+.bg-white {
+    background: white;
+    margin-top: 20px;
+}
+.party_side {
+    display: flex;
+    align-items: center;
+}
+
+.text_side {
+    font-family: "Berlin Sans FB";
+    color: #384a88;
+    flex-basis: 50%;
+    min-width: 30%;
+    min-height: 90%;
+    margin-right: 5%;
+}
+
+.text_side h2 {
+    padding-bottom: 30px;
+    font-size: 40px;
+    letter-spacing: 0.5px;
+}
+
+.text_side p {
+    letter-spacing: 0.5px;
+    word-spacing: 5px;
+    line-height: 20px;
+}
+
+.img_side img {
+    flex-basis: 50%;
+    max-width: 100%;
+    padding-bottom: 10%;
+    padding-top: 10%;
+}

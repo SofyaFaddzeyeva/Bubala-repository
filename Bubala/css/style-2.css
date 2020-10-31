@@ -1,7 +1,12 @@
-@import "fonts.css";
-@import "header-navbar.css";
-@import "style.css";
-
+@import "../css/fonts.css";
+@import "../css/header-navbar.css";
+@import "../css/links-hover.css";
+@import "../css/title-block.css";
+@import "../css/about-block.css";
+@import "../css/cards-block.css";
+@import "../css/cards-block-page2.css";
+@import "../css/buttons.css";
+@import "../css/footer.css";
 * {
     margin: 0;
     padding: 0;
@@ -20,4 +25,172 @@ body {
 .container, .party_side {
     width: 80%;
     margin: auto;
+}
+
+@media (max-width:991px) {
+    .container, .party_side {
+        width: 100%;
+    }
+    /* header */
+    .topnav {
+        display: block;
+        height: 250px;
+        padding-top: 2%;
+        font-size: 2.5em;
+    }
+    .locations {
+        position: absolute;
+        width: 100%;
+    }
+    .icon_links {
+        display: block;
+    }
+    .icon_links li {
+        position: relative;
+        display: block;
+        bottom: 0;
+    }
+    .icon_links i {
+        font-size: 2em;
+        right: 0;
+        margin-top: 300px;
+        padding-right: 100px;
+    }
+    .navbar {
+        display: block;
+    }
+    .logo img {
+        width: 40%;
+        padding-left: 40px;
+    }
+    .navbar {
+        display: block;
+    }
+    .navbar nav {
+        display: flex;
+        text-align: center;
+        padding-top: 2%;
+        font-size: 3em;
+    }
+    .navbar nav li {
+        padding: 20px;
+    }
+    .row {
+        display: block;
+    }
+    .col-2 {
+        min-width: 800px;
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+    .col-2 h2 {
+        padding-bottom: 30px;
+        font-size: 3em;
+        letter-spacing: 0.5px;
+    }
+    .col-2 p {
+        font-size: 30px;
+        letter-spacing: 1px;
+        word-spacing: 10px;
+        line-height: 40px;
+        padding-bottom: 2em;
+    }
+    .col-2 button {
+        font-size: 2em;
+        width: 300px;
+        height: 100px;
+        border-radius: 60px;
+    }
+    .col-2 img {
+        display: none;
+    }
+    .grid-2 {
+        padding-left: 4em;
+    }
+    .card {
+        width: 300px;
+        height: 400px;
+    
+    }
+    .card img {
+        width: 200px;
+    }
+    
+    .card li {
+        padding-bottom: 10px;
+    }
+    .card p {
+        font-size: 40px;
+    }
+    .card button {
+        font-size: 30px;
+        width: 250px;
+        height: 100px;
+        border-radius: 60px;
+    }
+    .grid {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(6, auto);
+        padding-left: 4em;
+    }
+    .item {
+        border-radius: 30px;
+        width: 424px;
+        height: 448px;
+        /* display: flex; */
+    }
+    .grid_header {
+        grid-row: 1;
+        grid-column: span 2;
+    }
+    .item:nth-child(2) {
+        grid-row: 2 / 3;
+        grid-column: 1 / 2;
+    }
+    .item:nth-child(3) {
+        grid-row: 2 / 3;
+        grid-column: 2 / 3;
+    }
+    .item:nth-child(4) {
+        grid-row: 3 / 4;
+        grid-column: 1 / 2;
+    }
+    .item:nth-child(5) {
+        grid-row: 3 / 4;
+        grid-column: 2 / 3;
+    }
+    .item li {
+        padding-top: 30px;
+    }
+    .item img {
+        width: 200px;
+    }
+    .item .price-text {
+        padding-left: 3em;
+        padding-right: 3em;
+        margin-top: 30px;
+    }
+    .item p {
+        font-size: 2.5em;
+    }
+
+
+    .footer {
+        height: auto;
+    }
+
+    .footer_items {
+        flex-wrap: wrap;
+    }
+
+    .footer_items ul {
+        font-size: 40px;
+        padding: 60px;
+    }
+    .footer_items button {
+        font-size: 30px;
+        width: 300px;
+        height: 100px;
+        border-radius: 60px;
+    }
 }

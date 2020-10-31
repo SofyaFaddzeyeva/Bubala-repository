@@ -1,0 +1,61 @@
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 20px 20px;
+    justify-items: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.card {
+    border-radius: 30px;
+    width: 212px;
+    height: 250px;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 20px;
+    justify-content: center;
+
+}
+.card:nth-child(2) {
+    background: linear-gradient(90deg, rgba(42,68,190,1) 35%, rgba(208,226,24,1) 100%);
+}
+.card:nth-child(3) {
+    background: linear-gradient(90deg, rgba(42,68,190,1) 35%, rgba(24,221,226,1) 100%);
+}
+.card:nth-child(4) {
+    background: linear-gradient(90deg, rgba(190,42,55,1) 35%, rgba(226,24,211,1) 100%);
+}
+.card:nth-child(5) {
+    background: linear-gradient(90deg, rgba(44,42,190,1) 35%, rgba(125,24,226,1) 100%);
+}
+
+.card img {
+    width: 150px;
+}
+.card ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.card li {
+    display: inline-block;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.card_header {
+    grid-row: 1;
+    grid-column: span 3;
+    font-family: "Berlin Sans FB";
+    color: #384a88;
+    font-size: 30px;
+    letter-spacing: 0.5px;
+}
+
+.card p {
+    font-family: "Berlin Sans FB";
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}

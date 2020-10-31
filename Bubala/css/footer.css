@@ -5,7 +5,7 @@
 }
 
 .img {
-    background-image: url("Images/footer.jpg");
+    background-image: url("../Images/footer.jpg");
     position: absolute;
     width: 1100px;
     min-height: 400px;

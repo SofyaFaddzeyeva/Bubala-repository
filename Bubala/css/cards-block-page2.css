@@ -1,0 +1,49 @@
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 20px 20px;
+    justify-items: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.card {
+    background-color: #cdd1dc;
+    border-radius: 30px;
+    width: 212px;
+    height: 300px;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 20px;
+    justify-content: center;
+}
+.card img {
+    width: 150px;
+}
+.card ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.card li {
+    display: inline-block;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.card_header {
+    grid-row: 1;
+    grid-column: span 3;
+    font-family: "Berlin Sans FB";
+    color: #384a88;
+    font-size: 30px;
+    letter-spacing: 0.5px;
+}
+
+.card p {
+    font-family: "Berlin Sans FB";
+    color: #384a88;
+    font-size: 25px;
+    text-align: center;
+}

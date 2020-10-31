@@ -12,6 +12,8 @@
     color: white;
     flex-basis: 60%;
     min-width: 300px;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 .col-2 h2 {
@@ -24,6 +26,7 @@
     letter-spacing: 0.5px;
     word-spacing: 5px;
     line-height: 30px;
+    padding-bottom: 2em;
 }
 
 
