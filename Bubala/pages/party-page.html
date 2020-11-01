@@ -10,6 +10,70 @@
 
 <body>
     <div class="container">
+        <div id="modal">
+            <form class="decor">
+
+                <div class="form-inner">
+                    <div class="logo">
+                        <img src="../Images/BUBALA LOGO.png" alt="logo" width="150px">
+                    </div>
+                    <h3>Fill in the form for booking Birthday Party</h3>
+                    <div class="form-block" style="display: flex; justify-content: space-between;">
+
+                        <div style="flex-basis: 60%;">
+                            <label for="Pikesville">1500 Reisterstown Rd
+                                Pikesville, MD 21208
+                                +1 443-450-3998
+                            </label>
+                            <label for="Pikesville">1500 Reisterstown Rd
+                                Pikesville, MD 21208
+                                +1 443-450-3998
+                            </label>
+                            <label for="Pikesville">1500 Reisterstown Rd
+                                Pikesville, MD 21208
+                                +1 443-450-3998
+                            </label>
+                        </div>
+                        <div style="flex-basis: 40%; ">
+                            <input type="radio" id="Pikesville" name="location">
+                            <input type="radio" id="Pikesville" name="location">
+                            <input type="radio" id="Pikesville" name="location">
+
+                        </div>
+
+                    </div>
+                    <div style="display: flex; justify-content: space-between;">
+                        <div><label for="name">Name of Child</label>
+                            <input type="text" name="name"></div>
+                        <div><label for="woman">boy</label>
+                            <input type="radio" id="boy" name="gender"></div>
+                        <div><label for="woman">girl</label>
+                            <input type="radio" id="girl" name="gender"></div>
+                    </div>
+
+                    <div><label for="age">Age will be</label>
+                        <input type="text" name="age"></div>
+
+                    <div><label for="date">Date of Party</label>
+                        <input type="date" placeholder="дата рождения" name="date"></div>
+
+                    <div style="display: flex;"><label for="father-name">Father's name</label>
+                        <input type="text" name="father-name">
+                        <input type="number" placeholder="phone" required name="phonenumber"></div>
+
+                    <div style="display: flex;">
+                        <label for="mother-name">Mother's name</label>
+                        <input type="text" name="mother-name">
+                        <input type="number" placeholder="phone" required name="phonenumber"></div>
+
+                    <input type="email" placeholder="Email">
+                    <input type="submit" value="Send Form">
+                </div>
+            </form>
+
+            <button class="btn close">Close</button>
+        </div>
+
         <div class="topnav">
             <nav>
                 <ul class="locations">
@@ -42,7 +106,7 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="">About Us</a></li>
+                    <li><a href="../pages/about_page.html">About Us</a></li>
                     <li><a href="">Packages & Specials</a></li>
                     <li><a href="">Franchise</a></li>
                     <li><a href="">Gallery</a></li>
@@ -59,11 +123,14 @@
                 </div>
                 <div class="col-2">
                     <h2>Birthday Party Packeges</h2>
-                    <p>Each party package includes one hour of open play and one hour for pizza and cake. Party room is available for the entire two-hour period. Each party package includes: -set up and clean up-water bottles for all children attending-paper goods, table covers (pink or blue)-party hostess and one complimentary X-large pizza double cut into 16 slices. 
-                        Additional pizza: $15-25 depending on toppings. 
-                        Additional time: $50 for each additional 30 minutes (available for any party packages). 
+                    <p>Each party package includes one hour of open play and one hour for pizza and cake. Party room is
+                        available for the entire two-hour period. Each party package includes: -set up and clean
+                        up-water bottles for all children attending-paper goods, table covers (pink or blue)-party
+                        hostess and one complimentary X-large pizza double cut into 16 slices.
+                        Additional pizza: $15-25 depending on toppings.
+                        Additional time: $50 for each additional 30 minutes (available for any party packages).
                         Private parties are also available, please inquire by phone!</p>
-                        <button class="btn primary">Book Party</button>
+                    <button class="btn booking primary">Book Party</button>
                 </div>
             </div>
         </div>
@@ -108,11 +175,21 @@
     <div class="bg">
         <div class="party_side">
             <div class="text_side">
-                <div class="text"><h2>Birthday Party</h2></div>
-                <div class="text"><p>Call us for booking Private Party:</p></div>
-                <div class="text"><p>Eldersburg<br>443-398-8391 </p></div>
-                <div class="text"><p> Fulton<br>240-280-8414</p></div>
-                <div class="text"><p>Pikesville<br>443-450-3998</p></div>
+                <div class="text">
+                    <h2>Birthday Party</h2>
+                </div>
+                <div class="text">
+                    <p>Call us for booking Private Party:</p>
+                </div>
+                <div class="text">
+                    <p>Eldersburg<br>443-398-8391 </p>
+                </div>
+                <div class="text">
+                    <p> Fulton<br>240-280-8414</p>
+                </div>
+                <div class="text">
+                    <p>Pikesville<br>443-450-3998</p>
+                </div>
                 <div class="buttons">
                     <button class="btn booking primary">Book now!</button>
                 </div>
@@ -170,6 +247,8 @@
         </div>
 
     </div>
+    <script src="../js/script.js"></script>
 
-    </body>
-    </html>
+</body>
+
+</html>
